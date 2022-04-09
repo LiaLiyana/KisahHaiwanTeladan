@@ -79,13 +79,10 @@ export default function MainPage() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#fff',
     backgroundColor: 'palegreen'
   },
   imageGiraffe: {
     position: 'absolute',
-    // bottom: '-30%',
-    // right: '-40%',
     width: '240%',
     height: '200%',
     resizeMode: 'contain'
