@@ -1,61 +1,35 @@
-import React, { useState } from "react";
-import { StyleSheet, View, Text, Image } from "react-native";
+import * as React from 'react';
+import { View, StyleSheet } from 'react-native';
+import Constants from 'expo-constants';
+import MainPage from './src/components/MainPage';
+import ContentPage from './src/components/ContentPage';
 
-const Square = ({ backgroundColor }) => {
-  const [height, setHeight] = useState(0);
-  return (
-    <View
-      onLayout={(e) => setHeight(e.nativeEvent.layout.width)}
-      style={{ flex: 1, height, backgroundColor }}
-    />
-  );
-};
+export default class App extends React.Component {
+  state = {
+    page: 1,
+  };
 
-export default function App() {
-  return (
-    <View style = {styles.container}>
-      <View style={{ flexDirection: "column"}}>
-          <View style={{ flexDirection: "row" }}>
-          <Image
-          source={require('./src/assets/rabbit-g521c44c12_640.png')}
-            style={{ width: 50, height: 50, margin: 16 }}
-          />
-          <Text style={{ margin: 20 }}>Kisah Arnab dan Kura Kura </Text>
-          <Text  style={{ margin: 16 }}>01 </Text>
-        </View>
-        <View style={{ flexDirection: "row" }}>
-          <Image
-          source={require('./src/assets/penguin_640.jpg')}
-            style={{ width: 50, height: 50, margin: 16 }}
-          />
-          <Text style={{ margin: 20 }}>Kisah Semut dan Burung Merpati </Text>
-          <Text  style={{ margin: 16 }}>02</Text>
-        </View>
-        <View style={{ flexDirection: "row" }}>
-          <Image
-            source={require('./src/assets/dog_640.jpg')}
-            style={{ width: 50, height: 50, margin: 16 }}
-          />
-          <Text style={{ margin: 20 }}>Kisah Anjing yang Tamak </Text>
-          <Text  style={{margin: 16 }}>03</Text>
-        </View>
-        <View style={{ flexDirection: "row" }}>
-          <Image
-            source={require('./src/assets/lion_640.jpg')}
-            style={{ width: 50, height: 50, margin: 16 }}
-          />
-          <Text style={{ margin: 20 }}>Kisah Singa dan Arnab </Text>
-          <Text  style={{margin: 16 }}>04</Text>
-        </View>
+  pickPageToRender = () => {
+    if (this.state.page === 1){
+      return (<MainPage pageChange={(pageNum) => this.setState({page: pageNum})}/>);
+    }
+    if (this.state.page === 2) {
+      return (<ContentPage pageChange={(pageNum) => this.setState({page: pageNum})} />);
+    }
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        {this.pickPageToRender()}
       </View>
-    </View>
-  );
+    );
+  }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#89CFF0',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    paddingTop: Constants.statusBarHeight,
+  }
 });
