@@ -10,7 +10,7 @@ export default function Page1() {
           />
       <View style={{ flexDirection: "column"}}>
           <View style={{ flexDirection: "row" }}>
-          <Text style={{ margin: 20 }}>Kisah Arnab dan Kura Kura </Text>
+          <Text style={{ margin: 20 }}>Kisah Arnab dan Kura Kura yg comel </Text>
         </View>
       </View>
     </View>
