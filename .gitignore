@@ -44,8 +44,13 @@ yarn-error.log
 testem.log
 /typings
 package-lock.json
+.json
+/.expo
 
 # System Files
 .DS_Store
 Thumbs.db
+
+#expo
+/.expo/web/cache
 

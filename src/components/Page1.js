@@ -1,0 +1,26 @@
+import React, { useState } from "react";
+import { StyleSheet, View, Text, Image } from "react-native";
+
+export default function Page1() {
+  return (
+    <View style = {styles.container}>
+      <Image
+          source={require('../assets/images/rabbit-g521c44c12_640.png')}
+            style={{ width: 50, height: 50 }}
+          />
+      <View style={{ flexDirection: "column"}}>
+          <View style={{ flexDirection: "row" }}>
+          <Text style={{ margin: 20 }}>Kisah Arnab dan Kura Kura yg comel </Text>
+        </View>
+      </View>
+    </View>
+  );
+}
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fcc3c3',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { View, StyleSheet, Text, Image, Button } from 'react-native';
-import ContentPage from './ContentPage';
 
 
-export default class MainPage extends React.Component {
-  render() {
+const MainPage = ({navigation}) => {
     return (
       <View style={styles.container}>
             <View style={{
@@ -68,7 +66,7 @@ export default class MainPage extends React.Component {
                   style={{justifyContent: 'center'}}
                   title="Mula Membaca"
                   color="#ffc0cb"
-                  onPress={() => this.props.pageChange(2)}
+                  onPress={() => navigation.navigate('ContentPage')}
                 />
               </View>
               <View style={{flex: 0.5}}>
@@ -77,8 +75,9 @@ export default class MainPage extends React.Component {
             </View>
       </View>
     );
-  }
 }
+
+export default MainPage;
 
 const styles = StyleSheet.create({
   container: {
