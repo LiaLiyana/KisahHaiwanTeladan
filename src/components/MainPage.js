@@ -70,7 +70,7 @@ const MainPage = ({navigation}) => {
                 />
               </View>
               <View style={{flex: 0.5}}>
-                <Image style={styles.imageGiraffe} source={require('../assets/images/giraffe.png')}/>
+                <Image style={styles.imageGiraffe} source={require('../assets/images/giraffe_small.png')}/>
               </View>
             </View>
       </View>
@@ -86,8 +86,8 @@ const styles = StyleSheet.create({
   },
   imageGiraffe: {
     position: 'absolute',
-    width: '240%',
-    height: '200%',
+    width: '100%',
+    height: '98%',
     resizeMode: 'contain'
   },
   imageCat: {
