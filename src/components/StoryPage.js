@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 
-export default function Page1() {
+function StoryPage({route, navigation}) {
+  const { id, story } = route.params;
+
+
+  console.log(story);
   return (
     <View style = {styles.container}>
       <Image
@@ -10,12 +14,20 @@ export default function Page1() {
           />
       <View style={{ flexDirection: "column"}}>
           <View style={{ flexDirection: "row" }}>
-          <Text style={{ margin: 20 }}>Kisah Arnab dan Kura Kura yg comel </Text>
+          <Text style={{ margin: 20 }}>{id}</Text>
+        </View>
+      </View>
+      <View style={{ flexDirection: "column"}}>
+          <View style={{ flexDirection: "row" }}>
+          <Text style={{ margin: 20 }}>{story.story}</Text>
         </View>
       </View>
     </View>
   );
 }
+
+export default StoryPage;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
