@@ -13,11 +13,10 @@ function ContentPage ({navigation}) {
               <View style={{ flexDirection: "row" }}>
                   <TouchableOpacity         
                     onPress={() => {
-                      console.log(story.find(object => object.id == item.id));
                         navigation.navigate('StoryPage',
                         {
                           story: story.find(object => object.id == item.id),
-                          id: 'ini adalah id : ' + item.id
+                          image: item.image
                         });
                       }
                     }

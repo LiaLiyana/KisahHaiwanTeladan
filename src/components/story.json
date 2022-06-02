@@ -2,25 +2,91 @@
     {
         "id": 1,
         "title": "Kisah Arnab dan Kura Kura",
-        "story": "Pada Suatu Hari, Si Arnab sedang bermain",
-        "lesson" :"Kita haruslah sentiasa patuh pada perintah Allah"
+        "story": [
+            "Pada suatu hari, Cik Arnab sedang berjalan jalan di dalam hutan. Arnab begitu bangga dengan keadaan fizikal dirinya. Badan yang gebu dan bulu yang putih. ",
+            "“Oh, cantiknya badan saya, tiada haiwan lain yang lebih cantik daripada saya”..kata arnab dengan penuh bangga.",
+            "Sedang berjalan, tiba - tiba arnab terlanggar kura kura yang sedang berjalan secara perlahan di hadapannya.",
+            "“Adoi, sakitnya kaki saya, Awak encik kura kura tengok kaki saya sudah sakit sekarang, ini semua salah awak”..Kata Arnab dengan nada sombong.",
+            "“Maafkan saya Cik Arnab, saya memang agak lambat sedikit “..Kata Encik Kura Kura merendah diri.",
+            "“Ah, awak memang lambat, tengok saya ini sudahlah cantik dan berjalan laju”..Kata, Cik Arnab dengan nada marah. ",
+            "“Kecantikan yang awak miliki ini semua adalah datang dari Allah,Bulu yang gebu dan dapat berjalan laju semua milik Allah, awak tidak boleh merasa sombong”..Kata Encik Kura Kura",
+            "Cik Arnab terus berlalu pergi meninggalkan Encik Kura Kura di situ.",
+            "Sedang cik Arnab lalu di atas jambatan, tiba - tiba jambatan patah dan cik Arnab terjatuh ke dalam sungai.",
+            "“Tolong, tolong saya “ ..Kata Cik Arnab dalam keadaan panik. Tiada siapa yang melalui jambatan itu, cik Arnab keseorangan.",
+            "“Cik Arnab, berdoa..Ya Allah, tolong saya, ampunkan saya, saya janji takkan sombong lagi. Ya Allah, gerakkan hati sesiapa untuk bantu saya“. Kata Cik Arnab menangis",
+            "Dengan kuasa Allah S.W.T, Encik Kura Kura yang sedang melalui jalan itu secara kebetulan.",
+            "“Macam suara Cik Arnab meminta tolong tu, Eh, Cik Arnab tunggu saya bantu kamu”",
+            "Encik kura kura menghulurkan kayu dan Cik Arnab berjaya memaut pada kayu tersebut.",
+            "“Saya minta maaf Encik Kura Kura, saya yang bersalah. Saya janji mulai hari ini, saya tidak akan bersikap sombong lagi. Alhamdulillah, Allah gerakkan hati kamu melalui jalan ini “..",
+            "“Cik Arnab, Allah yang selamatkan kamu..semua sebab Allah sayang kamu, saya hanya lalu kawasan ini sahaja”..kata Encik Kura Kura tersenyum.",
+            "Akhirnya Cik Arnab pon berubah dan berkawan baik dengan Encik Kura Kura. "
+        ],
+        "lesson" : [
+            "1. Didik anak anak kita tidak boleh bersikap sombong ",
+            "2. Didik anak anak semuanya adalah milik Allah ",
+            "3. Didik anak anak suka berdoa kepada Allah dalam apa jua keadaan "
+        ]
     },
     {
         "id": 2,
         "title": "Kisah Semut dan Burung Merpati",
-        "story": "Pada Suatu Hari, Si Arnab sedang bermain",
-        "lesson" :"Kita haruslah sentiasa patuh pada perintah Allah"
+        "story": [
+            "Cuaca begitu panas sekali, kelihatan sekumpulan semut yang rajin sedang berusaha mengambil hasil tanaman di kebun jagung milik mereka. ",
+            "“Kita perlu kumpul makanan sebelum musim hujan datang, nanti bila musim hujan semua tanaman dan hasil ini akan mati”..kata ketua semut.",
+            "Kelihatan sekumpulan belalang sedang asyik berbual dan bermain dam.",
+            "“Jom kita kacau semut, kelihatan mereka begitu rajin sekali”.kata Ketua Belalang",
+            "Mereka mendekati sekumpulan semut itu..",
+            "“Hai semut,..jangan risau musim hujan tidak akan datang. Lihat, kami semua tidak perlu bersusah payah seperti kamu, makanan pasti ada di mana mana” ..kata Ketua Belalang.",
+            "“Belalang, kita harus bersiap sedia kami dengar musim hujan akan berpanjangan. Nanti kamu mahu makan apa?, Allah juga menyuruh kita berusaha dalam mencari rezeki. Rezeki tidak akan datang tanpa berusaha..kata Ketua Semut",
+            "Dengan kuasa Allah S.W.T, musim hujan bermula. Habis semua tanaman, dibasahi hujan. Tiada satu makanan yang tinggal di kawasan itu.",
+            "Di rumah semut, mereka semua sedang membahagikan makanan antara satu sama lain. Alhamdulillah, bekalan makanan mereka mencukupi sehingga tamat musim hujan.",
+            "Di luar, sekumpulan belalang mati kerana kelaparan."
+        ],
+        "lesson" : [
+            "1. Didik anak anak supaya sentiasa berusaha",
+            "2. Didik anak anak rajin adalah sifat yang mulia",
+            "3. Didik anak anak supaya sentiasa memohon pada Allah"
+        ]
     },
     {
         "id": 3,
         "title": "Kisah Anjing yang Tamak",
-        "story": "Pada Suatu Hari, Si Arnab sedang bermain",
-        "lesson" :"Kita haruslah sentiasa patuh pada perintah Allah"
+        "story": [
+            "Kelihatan seekor anjing sedang menggonggong dua ketul tulang di mulutnya.",
+            "“Nyum, nyum..sedapnya tulang ini.Tulang ini saya yang punya..” Kata Encik Anjing",
+            "Tiba - tiba, anjing terserempak dengan Cik Musang di sebuah jambatan.",
+            "“Wah, sedapnya,Jing boleh bagi saya seketul tulang ayam. Saya sangat lapar, sudah seminggu saya demam saya tidak dapat pergi mencari makanan”..Kata Cik Musang",
+            "“Tidak boleh, ini saya yang punya. Penat saya cari siang malam..” Kata Encik Anjing.",
+            "“Allah suka, kalau kita berkongsi rezeki. Allah sayang pada mereka yang memberi”..Kata Cik Musang.",
+            "Encik Anjing terus meninggalkan Cik Musang di situ keseorangan dalam keadaan yang sangat lapar. ",
+            "Semasa sedang melalui jambatan, kaki Encik Anjing tersangkut dan dia jatuh tersembam. Maka, tulang - tulang tadi tercampak ke dalam sungai.",
+            "“Alamak, habis sudah makanan saya. Alangkah baiknya, kalau saya beri kepada Cik Musang tadi “..Kata Encik Anjing dengan penuh kekesalan."
+        ],
+        "lesson" : [
+            "1. Didik anak anak supaya sentiasa suka memberi dan berkongsi dengan semua",
+            "2. Didik anak anak supaya sentiasa suka bersedekah",
+            "3. Allah sayang pada hambaNya yang suka memberi."
+        ]
     },
     {
         "id": 4,
         "title": "Kisah Singa dan Arnab",
-        "story": "Pada Suatu Hari, Si Arnab sedang bermain",
-        "lesson" :"Kita haruslah sentiasa patuh pada perintah Allah"
+        "story": [
+            "Kelihatan penduduk rimba sedang berkumpul di hadapan raja singa. ",
+            "“Raja Singa, kita akan mengalami kemarau berpanjangan dan hujan yang mengakibatkan banjir habislah kita semua akan mati kelaparan dan kesejukan”..kata Encik Kuda melihat ramalan kaji cuaca pada minggu hadapan.",
+            "Raja singa hanya senyum. Sebenarnya, sejak awal minggu lagi Raja Singa sudah mula menjalankan strategi untuk melindungi penduduk hutan rimba dan memohon pada Allah dalam apa jua urusannya.",
+            "“Wahai penduduk rimba, simpan semua bekalan makanan kita dalam gudang di bawah pokok sana, saya akan pastikan tiada siapa yang akan mati kelaparan dan kesejukan Insyaallah”..kata Raja Singa",
+            "“Saya malas tetapi saya tidak mahu mati kelaparan”..kata Encik Gajah",
+            "“Saya pon malas tetapi tidak mahu mati kesejukan”..kata Puan Zirafah ",
+            "“Wahai penduduk rimba, semua strategi yang saya buat tadi tidak akan berjalan jika kita tidak bekerjasama dan bantu membantu sama lain. KIta harus saling tolong menolong. Bolehkah semua bersama dengan saya ? “..kata Raja Singa",
+            "“Baik,kami akan susah dan senang bersama sama kamu raja singa”..Kata semua penduduk rimba ",
+            "Sejak dari hari itu, semua penduduk rimba bergotong royong bersama sama mengumpulkan makanan dan membina rumah di atas bukit sebagai persediaan cuaca panas dan banjir.",
+            "Dengan kuasa Allah SWT, semua penduduk rimba selamat dan tiada seekor penduduk rimba yang mati kelaparan dan kesejukan."
+        ],
+        "lesson" : [
+            "1. Didik anak anak supaya sentiasa suka membantu antara satu sama lain",
+            "2. Didik anak anak supaya menggunakan akal yang diberikan Allah dengan sebaiknya",
+            "3. Allah menjadikan manusia sebagai khalifah di muka bumi untuk memimpin"
+        ]
     }
 ]

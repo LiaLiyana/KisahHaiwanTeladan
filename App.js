@@ -13,7 +13,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={MainPage} options={{headerShown:false}} />
         <Stack.Screen name="ContentPage" component={ContentPage}  options={{headerShown:false}}/>
-        <Stack.Screen name="StoryPage" component={StoryPage} />
+        <Stack.Screen name="StoryPage" component={StoryPage} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
