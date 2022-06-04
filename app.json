@@ -1,11 +1,22 @@
 {
   "expo": {
-    "name": "MyReactNative",
-    "slug": "MyReactNative",
+    "name": "Kisah Haiwan Teladan",
+    "slug": "KisahHaiwanTeladan",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icons/appLogoV2.png",
+    "splash": {
+      "image": "./src/assets/icons/appLogoV2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.kht.kisahHaiwanTeladan",
+      "versionCode": 1
+    }
   },
-  "name": "MyReactNative"
+  "name": "Kisah Haiwan Teladan"
 }
