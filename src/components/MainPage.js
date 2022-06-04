@@ -87,7 +87,8 @@ const styles = StyleSheet.create({
   imageGiraffe: {
     position: 'absolute',
     width: '100%',
-    height: '98%',
+    height: '100%',
+    bottom: '-10%',
     resizeMode: 'contain'
   },
   imageCat: {
